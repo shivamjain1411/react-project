@@ -8,7 +8,7 @@ const OurAim = () => {
           Our Main AIM - Customer Satisfaction
         </h1>
         <div className="flex justify-center">
-          <div className="w-3/12 border-t-0 border-8 border-l-0 border-r-0 border-yellow-400 h-4"></div>
+          <div className="w-3/12 border-t-0 border-4 border-l-0 border-r-0 border-yellow-400 h-4"></div>
         </div>
         <div className="flex items-center my-2">
           <div className="w-1/2 pr-8 ml-20">

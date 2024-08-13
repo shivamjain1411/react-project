@@ -1,7 +1,7 @@
 // WhyChooseUs.js
 import React from "react";
 import FeatureCard from "./FeatureCard";
-
+import section from "../images/section.webp";
 // Import your icons and main image
 import icon1 from "../images/path-to-icon1.png";
 import icon2 from "../images/path-to-icon2.png";
@@ -55,6 +55,9 @@ const WhyChooseUs = () => {
             description="Our experts specialize in taxation and legal services throughout India. They assist with licensing, compliance, dispute resolution, and problem analysis. They possess a strong understanding of the legal industry and offer reliable counsel."
           />
         </div>
+      </div>
+      <div className="m-32">
+        <img src={section} />
       </div>
     </div>
   );

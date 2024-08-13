@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
         </h1>
       </div>
-      <div className="border border-red-800 flex justify-center items-center  mx-24">
+      <div className=" flex justify-center items-center  mx-24">
         <div className="w-4/12 flex justify-center">
           <div className="flex flex-col justify-center items-center">
             <img src={legal} className="w-14 h-14" />
