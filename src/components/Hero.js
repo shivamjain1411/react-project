@@ -58,10 +58,10 @@ const Hero = () => {
           <div className="flex flex-col justify-center items-center">
             <img src={legal} className="w-14 h-14" />
             <h1 className="py-3 text-white text-4xl font-bold">Legal</h1>
-            <h1 className="pt-2 text-white text-lg font-bold">
+            <h1 className="pt-2 text-white text-lg font-semibold">
               Expert lawyers handle all your documents, contracts,
             </h1>
-            <h1 className="pb-2 text-white text-lg font-bold">
+            <h1 className="pb-2 text-white text-lg font-semibold">
               and registrations.
             </h1>
           </div>
@@ -70,8 +70,8 @@ const Hero = () => {
           <div className="flex flex-col justify-center items-center">
             <img src={tax} className="w-14 h-14" />
             <h1 className="py-3 text-white text-4xl font-bold">Tax</h1>
-            <h1 className="pt-2 text-white text-lg font-bold"></h1>
-            <h1 className="pb-2 text-white text-lg font-bold">
+            <h1 className="pt-2 text-white text-lg font-semibold"></h1>
+            <h1 className="pb-2 text-white text-lg font-semibold">
               Help to file your return with expert in easier way
             </h1>
           </div>
@@ -80,8 +80,8 @@ const Hero = () => {
           <div className="flex flex-col justify-center items-center">
             <img src={ca} className="w-14 h-14" />
             <h1 className="py-3 text-white text-4xl font-bold">Compliance</h1>
-            <h1 className="pt-2 text-white text-lg font-bold"></h1>
-            <h1 className="pb-2 text-white text-lg font-bold">
+            <h1 className="pt-2 text-white text-lg font-semibold"></h1>
+            <h1 className="pb-2 text-white text-lg font-semibold">
               Our CA & CS will keep your books in order.
             </h1>
           </div>
