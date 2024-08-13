@@ -17,6 +17,36 @@ const OurServices = () => {
       title: "Business Registration",
       description: "Quick and reliable company registration",
     },
+    {
+      icon: "🏢",
+      title: "Business Registration",
+      description: "Quick and reliable company registration",
+    },
+    {
+      icon: "🏢",
+      title: "Business Registration",
+      description: "Quick and reliable company registration",
+    },
+    {
+      icon: "🏢",
+      title: "Business Registration",
+      description: "Quick and reliable company registration",
+    },
+    {
+      icon: "🏢",
+      title: "Business Registration",
+      description: "Quick and reliable company registration",
+    },
+    {
+      icon: "🏢",
+      title: "Business Registration",
+      description: "Quick and reliable company registration",
+    },
+    {
+      icon: "🏢",
+      title: "Business Registration",
+      description: "Quick and reliable company registration",
+    },
   ];
 
   return (
