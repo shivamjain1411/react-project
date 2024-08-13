@@ -9,15 +9,13 @@ const OurAim = () => {
           Our Main AIM - Customer Satisfaction
         </h1>
         <div className="flex justify-center">
-<<<<<<< HEAD
           <div className="w-3/12 border-t-0 border-4 border-l-0 border-r-0 border-yellow-400 h-4"></div>
-=======
-          <div className="w-2/4 lg:w-3/12 border-t-0 border-4 lg:border-8 border-l-0 border-r-0 border-yellow-400 h-4"></div>
->>>>>>> 60129bbb2240e7860200ab0a73b2374bf15df2db
         </div>
         <div className="flex flex-col lg:flex-row items-center my-2">
           <div className="w-full lg:w-1/2 pr-0 p-4 lg:pr-8 lg:ml-20">
-            <h3 className="text-lg lg:text-xl font-bold mb-4">MONEY BACK GUARANTEE</h3>
+            <h3 className="text-lg lg:text-xl font-bold mb-4">
+              MONEY BACK GUARANTEE
+            </h3>
             <p className="mb-4 font-semibold text-base lg:text-lg">
               Our top priority is always our clients’ satisfaction. That’s why
               we offer a comprehensive 100% money-back guarantee on all our
@@ -31,7 +29,11 @@ const OurAim = () => {
             </button>
           </div>
           <div className="w-full lg:w-1/2 flex justify-center mt-4 lg:mt-0">
-            <img src={moneyback} alt="Guarantee" className="w-3/4 lg:w-auto shadow-lg" />
+            <img
+              src={moneyback}
+              alt="Guarantee"
+              className="w-3/4 lg:w-auto shadow-lg"
+            />
           </div>
         </div>
       </div>
