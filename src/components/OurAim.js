@@ -10,8 +10,8 @@ const OurAim = () => {
         <div className="flex justify-center">
           <div className="w-3/12 border-t-0 border-8 border-l-0 border-r-0 border-yellow-400 h-4"></div>
         </div>
-        <div className="flex items-center">
-          <div className="w-1/2 pr-8 border border-red-700 ml-20">
+        <div className="flex items-center my-2">
+          <div className="w-1/2 pr-8 ml-20">
             <h3 className="text-xl font-bold mb-4">MONEY BACK GUARANTEE</h3>
             <p className="mb-4 font-semibold text-lg">
               Our top priority is always our clients’ satisfaction. That’s why
@@ -25,7 +25,7 @@ const OurAim = () => {
               Know More
             </button>
           </div>
-          <div className="w-1/2 flex justify-center border border-green-500">
+          <div className="w-1/2 flex justify-center">
             <img src={moneyback} alt="Guarantee" className=" shadow-lg" />
           </div>
         </div>
