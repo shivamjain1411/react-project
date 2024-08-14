@@ -1,17 +1,19 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 const Navigation = () => {
+  const location = useLocation(); // React Router hook to get current location
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    "Home",
-    "Book Consultancy",
-    "Income Tax",
-    "GST",
-    "Business Registration",
-    "Legal Service",
-    "Annual Service",
-    "Resources",
+    { name: "Home", path: "/" },
+    { name: "Book Consultancy", path: "/book-consultancy" },
+    { name: "Income Tax", path: "/income-tax" },
+    { name: "GST", path: "/gst" },
+    { name: "Business Registration", path: "/business-registration" },
+    { name: "Legal Service", path: "/legal-service" },
+    { name: "Annual Service", path: "/annual-service" },
+    { name: "Resources", path: "/resources" },
   ];
 
   return (
@@ -45,13 +47,17 @@ const Navigation = () => {
           </div>
           <div className="hidden md:block w-full">
             <ul className="flex justify-center items-center space-x-8">
-              {menuItems.map((item) => (
-                <li key={item} className="py-2">
+              {menuItems.map(({ name, path }) => (
+                <li key={name} className="py-2">
                   <a
-                    href="#"
-                    className="hover:text-yellow-300 transition duration-300"
+                    href={path}
+                    className={`${
+                      location.pathname === path
+                        ? "text-yellow-300"
+                        : "hover:text-yellow-300"
+                    } transition duration-300`}
                   >
-                    {item}
+                    {name}
                   </a>
                 </li>
               ))}
@@ -60,13 +66,17 @@ const Navigation = () => {
         </div>
         {isMenuOpen && (
           <ul className="md:hidden">
-            {menuItems.map((item) => (
-              <li key={item} className="py-2">
+            {menuItems.map(({ name, path }) => (
+              <li key={name} className="py-2">
                 <a
-                  href="#"
-                  className="block hover:text-yellow-300 transition duration-300"
+                  href={path}
+                  className={`block ${
+                    location.pathname === path
+                      ? "text-yellow-300"
+                      : "hover:text-yellow-300"
+                  } transition duration-300`}
                 >
-                  {item}
+                  {name}
                 </a>
               </li>
             ))}
