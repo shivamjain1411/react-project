@@ -8,6 +8,7 @@ import TaxTable from "../components/IncomeTaxx/TaxTable";
 import Peanulties from "../components/IncomeTaxx/Peanulties";
 import Associate from "../components/IncomeTaxx/Associate";
 import Client from "../components/IncomeTaxx/Client";
+import FAQ from "../components/IncomeTaxx/FAQ";
 
 function IncomeTax() {
   return (
@@ -23,6 +24,7 @@ function IncomeTax() {
       <Peanulties />
       <Associate />
       <Client />
+      <FAQ />
     </div>
   );
 }
