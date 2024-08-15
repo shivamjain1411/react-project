@@ -19,7 +19,7 @@ const InfoCard = ({ title, description }) => {
           <div className="flex">
             <img
               src={
-                isOpen
+                !isOpen
                   ? "https://www.svgrepo.com/show/80156/down-arrow.svg"
                   : "https://www.svgrepo.com/show/93813/up-arrow.svg"
               }
