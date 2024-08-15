@@ -8,7 +8,6 @@ const Heading = ({ title, para }) => {
         {title}
       </h1>
       <div className="border-b-4 max-w-2xl mx-[35%]  border-yellow-500 mb-4 "></div>
-      {/* Add more content or child components here if needed */}
       <p className="text-center text-blue-900 font-bold text-lg">{para}</p>
     </div>
   );
