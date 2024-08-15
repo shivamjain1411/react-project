@@ -201,123 +201,96 @@ const ConsultationForm = () => {
           </p>
         </div>
       </div>
-      <div className="bg-card p-6 rounded-lg shadow-md flex justify-between items-center mx-[15%]">
-        <div className="flex items-center">
+      <div className="bg-card p-4 sm:p-6 rounded-lg shadow-md flex flex-col sm:flex-row justify-between items-center mx-[5%] sm:mx-[15%] space-y-4 sm:space-y-0 sm:space-x-4">
+        <div className="flex items-center w-full sm:w-auto">
           <img
             aria-hidden="true"
             alt="cases-resolved"
             src="https://openui.fly.dev/openui/24x24.svg?text=📄"
-            className="w-10 h-10 mr-2"
+            className="w-8 h-8 sm:w-10 sm:h-10 mr-2"
           />
           <div>
-            <h2 className="text-2xl font-bold">90500+</h2>
-            <p className="text-muted-foreground">Cases resolved</p>
+            <h2 className="text-xl sm:text-2xl font-bold">90500+</h2>
+            <p className="text-sm sm:text-base text-muted-foreground">Cases resolved</p>
           </div>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center w-full sm:w-auto">
           <img
             aria-hidden="true"
             alt="consulting-minutes"
             src="https://openui.fly.dev/openui/24x24.svg?text=📞"
-            className="w-10 h-10 mr-2"
+            className="w-8 h-8 sm:w-10 sm:h-10 mr-2"
           />
           <div>
-            <h2 className="text-2xl font-bold">7 Million+</h2>
-            <p className="text-muted-foreground">Consulting minutes</p>
+            <h2 className="text-xl sm:text-2xl font-bold">7 Million+</h2>
+            <p className="text-sm sm:text-base text-muted-foreground">Consulting minutes</p>
           </div>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center w-full sm:w-auto">
           <img
             aria-hidden="true"
             alt="google-reviews"
             src="https://openui.fly.dev/openui/24x24.svg?text=⭐"
-            className="w-10 h-10 mr-2"
+            className="w-8 h-8 sm:w-10 sm:h-10 mr-2"
           />
           <div>
-            <h2 className="text-2xl font-bold">Google Reviews</h2>
-            <p className="text-muted-foreground">4.3/5</p>
-            <p className="text-muted-foreground">15,500+ Happy Reviews</p>
+            <h2 className="text-xl sm:text-2xl font-bold">Google Reviews</h2>
+            <p className="text-sm sm:text-base text-muted-foreground">4.3/5</p>
+            <p className="text-sm sm:text-base text-muted-foreground">15,500+ Happy Reviews</p>
           </div>
         </div>
       </div>
-      <div className="text-center py-10">
-        <h2 className="text-4xl font-bold text-primary mb-6">
-          Why{" "}
-          <span className="text-blue-600">SUMIT YADAV TAX CONSULTANCY?</span>
-        </h2>
-        <div className="flex justify-center space-x-8 mx-[15%]">
-          <div className="bg-card p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 relative">
-            <div
-              className="absolute inset-0 top-0 left-0 right-0 border-t-4 border-yellow-500 border-l-4 border-r-4"
-              style={{ height: "50%" }}
-            ></div>
-            <div
-              className="absolute inset-0 top-1/2 left-0 right-0 border-l-0 border-r-0 border-b-0"
-              style={{ height: "50%" }}
-            ></div>
+      <div className="text-center py-6 sm:py-10 px-4 sm:px-0">
+  <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+    Why <span className="text-blue-600">SUMIT YADAV TAX CONSULTANCY?</span>
+  </h2>
+  <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-4 md:space-x-8 mx-0 sm:mx-[5%] md:mx-[15%]">
+    <div className="bg-card p-4 sm:p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 relative w-full sm:w-1/3">
+      <div className="absolute inset-0 top-0 left-0 right-0 border-t-4 border-yellow-500 border-l-4 border-r-4" style={{ height: "50%" }}></div>
+      <div className="absolute inset-0 top-1/2 left-0 right-0 border-l-0 border-r-0 border-b-0" style={{ height: "50%" }}></div>
+      <img
+        aria-hidden="true"
+        alt="computer-icon"
+        src="https://assets.vakilsearch.com/live-images/talk-to-expert/computer.svg"
+        className="mx-auto mb-4 w-16 h-16 sm:w-auto sm:h-auto"
+      />
+      <h3 className="text-lg font-semibold text-secondary mb-2 sm:mb-6">Completely Online</h3>
+      <p className="text-sm sm:text-base text-muted-foreground">
+        Our team of advisors will provide you with sound advice based on your needs.
+      </p>
+    </div>
 
-            <img
-              aria-hidden="true"
-              alt="computer-icon"
-              src="https://assets.vakilsearch.com/live-images/talk-to-expert/computer.svg"
-              className="mx-auto mb-4"
-            />
-            <h3 className="text-lg font-semibold text-secondary m-6">
-              Completely Online
-            </h3>
-            <p className="text-muted-foreground m-2">
-              Our team of advisors will provide you with sound advice based on
-              your needs.
-            </p>
-          </div>
+    <div className="bg-card p-4 sm:p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 relative w-full sm:w-1/3">
+      <div className="absolute inset-0 top-0 left-0 right-0 border-t-4 border-yellow-500 border-l-4 border-r-4" style={{ height: "50%" }}></div>
+      <div className="absolute inset-0 top-1/2 left-0 right-0 border-l-0 border-r-0 border-b-0" style={{ height: "50%" }}></div>
+      <img
+        aria-hidden="true"
+        alt="video-call-icon"
+        src="https://assets.vakilsearch.com/live-images/talk-to-expert/meet.svg"
+        className="mx-auto mb-4 w-16 h-16 sm:w-auto sm:h-auto"
+      />
+      <h3 className="text-lg font-semibold text-secondary mb-2 sm:mb-6">Video Call</h3>
+      <p className="text-sm sm:text-base text-muted-foreground">
+        We offer easy solutions to busy clients via video calls with expert.
+      </p>
+    </div>
 
-          <div className="bg-card p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 relative">
-            <div
-              className="absolute inset-0 top-0 left-0 right-0 border-t-4 border-yellow-500 border-l-4 border-r-4"
-              style={{ height: "50%" }}
-            ></div>
-            <div
-              className="absolute inset-0 top-1/2 left-0 right-0 border-l-0 border-r-0 border-b-0"
-              style={{ height: "50%" }}
-            ></div>
-
-            <img
-              aria-hidden="true"
-              alt="video-call-icon"
-              src="https://assets.vakilsearch.com/live-images/talk-to-expert/meet.svg"
-              className="mx-auto mb-4"
-            />
-            <h3 className="text-lg font-semibold text-secondary">Video Call</h3>
-            <p className="text-muted-foreground">
-              We offer easy solutions to busy clients via video calls with
-              expert.
-            </p>
-          </div>
-
-          <div className="bg-card p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 relative">
-            <div
-              className="absolute inset-0 top-0 left-0 right-0 border-t-4 border-yellow-500 border-l-4 border-r-4"
-              style={{ height: "50%" }}
-            ></div>
-            <div
-              className="absolute inset-0 top-1/2 left-0 right-0 border-l-0 border-r-0 border-b-0"
-              style={{ height: "50%" }}
-            ></div>
-
-            <img
-              aria-hidden="true"
-              alt="money-icon"
-              src="https://assets.vakilsearch.com/live-images/talk-to-expert/money.svg"
-              className="mx-auto mb-4"
-            />
-            <h3 className="text-lg font-semibold text-secondary">Save Money</h3>
-            <p className="text-muted-foreground">
-              No extra fees will be charged. While saving money, get excellent
-              guidance.
-            </p>
-          </div>
-        </div>
-      </div>
+    <div className="bg-card p-4 sm:p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 relative w-full sm:w-1/3">
+      <div className="absolute inset-0 top-0 left-0 right-0 border-t-4 border-yellow-500 border-l-4 border-r-4" style={{ height: "50%" }}></div>
+      <div className="absolute inset-0 top-1/2 left-0 right-0 border-l-0 border-r-0 border-b-0" style={{ height: "50%" }}></div>
+      <img
+        aria-hidden="true"
+        alt="money-icon"
+        src="https://assets.vakilsearch.com/live-images/talk-to-expert/money.svg"
+        className="mx-auto mb-4 w-16 h-16 sm:w-auto sm:h-auto"
+      />
+      <h3 className="text-lg font-semibold text-secondary mb-2 sm:mb-6">Save Money</h3>
+      <p className="text-sm sm:text-base text-muted-foreground">
+        No extra fees will be charged. While saving money, get excellent guidance.
+      </p>
+    </div>
+  </div>
+</div>
     </div>
   );
 };
