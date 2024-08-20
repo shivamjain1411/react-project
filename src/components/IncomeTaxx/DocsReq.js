@@ -83,7 +83,7 @@ const ServiceCard = ({
   description4,
   description5,
 }) => (
-  <div className=" py-6 shadow-md text-start border-[0.7vw] border-[#281c73] bg-[#dadfff] group rounded-xl">
+  <div className="p-4 py-6 shadow-md text-start border-[0.7vw] border-[#281c73] bg-[#dadfff] group rounded-xl">
     <div className="hover:text-blue-400 gst">
       <h3 className="text-2xl font-bold mb-2 group-hover:text-[#2575fc]">
         {title}
