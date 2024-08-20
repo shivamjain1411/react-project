@@ -4,10 +4,12 @@ import OurServices from "../components/OurServices";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Testimonial from "../components/Testimonial";
 import LatestBlog from "../components/LatestBlog";
+import Hero from "../components/Hero";
 
 function Home() {
   return (
     <div>
+      <Hero />
       <OurAim />
       <OurServices />
       <WhyChooseUs />
