@@ -18,6 +18,7 @@ import LegalService from "./pages/LegalService";
 import AnnualService from "./pages/AnnualService";
 import Resources from "./pages/Resources";
 import GstReg from "./pages/GstReg";
+import GSTRet from "./pages/GSTRet";
 const AppLayout = () => {
   return (
     <div className="app">
@@ -68,6 +69,10 @@ export const appRouter = createBrowserRouter([
       {
         path: "/gst-registration",
         element: <GstReg />,
+      },
+      {
+        path: "/gst-return-filing",
+        element: <GSTRet />,
       },
     ],
   },
