@@ -10,6 +10,7 @@ import ComplianceTable from "../components/GSTreg/ComplianceTable";
 import ComplianceTable2 from "../components/GSTreg/ComplianceTable2";
 import ComplianceTable3 from "../components/GSTreg/ComplianceTable3";
 import WhyUs from "../components/CommonComponents/WhyUs";
+import PopularServices from "../components/CommonComponents/PopularServices";
 
 function GstReg() {
   return (
@@ -25,6 +26,7 @@ function GstReg() {
       <ComplianceTable2 />
       <ComplianceTable3 />
       <WhyUs />
+      <PopularServices />
     </div>
   );
 }
