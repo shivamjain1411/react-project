@@ -9,6 +9,7 @@ import GSTLimitsTable from "../components/GSTreg/GSTLimitsTable";
 import ComplianceTable from "../components/GSTreg/ComplianceTable";
 import ComplianceTable2 from "../components/GSTreg/ComplianceTable2";
 import ComplianceTable3 from "../components/GSTreg/ComplianceTable3";
+import WhyUs from "../components/CommonComponents/WhyUs";
 
 function GstReg() {
   return (
@@ -23,6 +24,7 @@ function GstReg() {
       <ComplianceTable />
       <ComplianceTable2 />
       <ComplianceTable3 />
+      <WhyUs />
     </div>
   );
 }
